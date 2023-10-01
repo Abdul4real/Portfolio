@@ -1,0 +1,50 @@
+.P_cont {
+    padding-top: 80px; /* Adjusted padding */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Slight shadow */
+    width: 100%; /* Adjusted width */
+    background-color: #ffffff; /* White background */
+}
+
+.p_item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px; /* Added padding */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Slight shadow */
+    margin-bottom: 20px; /* Adjusted margin */
+}
+
+.P__grid__ div {
+    cursor: pointer;
+    color: #000000; /* Black text */
+    padding: 10px; /* Adjusted padding */
+    border: 1px solid #e0e0e0; /* Border */
+    border-radius: 5px; /* Rounded corners */
+    margin-bottom: 15px; /* Adjusted margin */
+}
+
+.P__grid__ a {
+    text-decoration: none;
+}
+
+.P__grid__ div:hover {
+    transform: scale(1.05); /* Slight scale on hover */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Slight shadow on hover */
+    background-color: #f9f9f9; /* Light grey background on hover */
+    color: #000000; /* Black text */
+    transition: transform 0.3s ease-in-out; /* Smoother transition */
+}
+
+body {
+    align-content: center;
+    background-color: #f0f0f0; /* Light grey background */
+}
+
+.test {
+    background-image: url("test.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #ffffff; /* White background */
+}

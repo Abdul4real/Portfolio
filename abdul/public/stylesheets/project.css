@@ -1,0 +1,49 @@
+.P_cont {
+    padding-top: 120px;
+    box-shadow: 1px 0 10px 0px #E0E0E0; /* Adjusted to grey shadow */
+    width: 97%;
+    background-image: url();
+}
+
+.p_item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.P__grid__ div {
+    cursor: pointer;
+    color: #FFFFFF; /* White text */
+    padding: 2px;
+    margin-bottom: 30px;
+}
+
+.P__grid__ a {
+    text-decoration: none;
+}
+
+.P__grid__ div:hover {
+    transform: scale(1.1);
+    box-shadow: 0px 0px 15px 5px #E0E0E0; /* Adjusted to grey shadow */
+    background-color: #F5F5F5; /* Light grey background */
+    color: #000000; /* Black text */
+    transition: .5s linear;
+}
+
+body {
+    align-content: center;
+    background-image: none; /* Removed the image background */
+    background-color: #FFFFFF; /* White background */
+}
+
+.test {
+    background-image: url("test.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* If you want to adjust the test class as well */
+.test {
+    background-color: #FFFFFF; /* White background */
+}
