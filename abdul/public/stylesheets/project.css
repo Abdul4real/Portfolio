@@ -43,6 +43,10 @@ body {
     background-size: cover;
 }
 
+.P__grid__{
+    padding-bottom: 4rem;
+}
+
 /* If you want to adjust the test class as well */
 .test {
     background-color: #FFFFFF; /* White background */

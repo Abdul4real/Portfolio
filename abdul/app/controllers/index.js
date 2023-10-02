@@ -8,7 +8,7 @@ module.exports.home = function (req, res, next) {
 }
 
 module.exports.about = function (req, res, next) {
-    res.render('index',
+    res.render('about',
         {
             title: 'About',
             username: 'khalifa'
