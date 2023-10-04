@@ -17,4 +17,5 @@ router.get('/Details_page1.html', indexController.aboutP);
 router.get('/Details_page2.html', indexController.aboutP1);
 router.get('/Details_page3.html', indexController.aboutP2);
 router.get('/services', indexController.service);
+router.post("/submit-form", indexController.submit)
 module.exports = router;

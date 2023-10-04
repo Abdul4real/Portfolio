@@ -1,7 +1,7 @@
 .P_cont {
     padding-top: 120px;
-    box-shadow: 1px 0 10px 0px #E0E0E0; /* Adjusted to grey shadow */
-    width: 97%;
+    background-color: #f0f0f0 !important;
+    width: 100%;
     background-image: url();
 }
 
@@ -15,8 +15,9 @@
 .P__grid__ div {
     cursor: pointer;
     color: #FFFFFF; /* White text */
-    padding: 2px;
-    margin-bottom: 30px;
+    padding: 20px;
+    background-color: #FFFFFF;
+    border-radius: 10px;
 }
 
 .P__grid__ a {
@@ -31,11 +32,7 @@
     transition: .5s linear;
 }
 
-body {
-    align-content: center;
-    background-image: none; /* Removed the image background */
-    background-color: #FFFFFF; /* White background */
-}
+
 
 .test {
     background-image: url("test.jpg");
@@ -44,10 +41,17 @@ body {
 }
 
 .P__grid__{
-    padding-bottom: 4rem;
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
 }
 
-/* If you want to adjust the test class as well */
-.test {
-    background-color: #FFFFFF; /* White background */
+.p_item h2{
+    font-size: 20px;
 }
+.p_item{
+
+}
+
