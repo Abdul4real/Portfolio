@@ -9,5 +9,5 @@ router.get('/', usersController.users);
 router.get('/profile', usersController.profile);
 
 router.get('/project', usersController.profile);
-
+router.get('/contact', usersController.contact);
 module.exports = router;

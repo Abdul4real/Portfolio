@@ -1,18 +1,16 @@
 /* Genera Css */
-body {
-    font-family: sans-serif;
-    margin: 0; 
-    padding: 0; 
-}
+
 
 .h1, h2{
     color: #000;
-    font-size: 3rem;
+    font-size: 6rem;
     font-style: normal;
     font-weight: 600;
-    line-height: 120%;
+    line-height: 60%;
 }
-
+.tn{
+    text-align: center;
+}
 h3{
     color: #000;
     font-size: 2.5rem;
@@ -41,26 +39,19 @@ h3{
     color: white;
 }
 
-.prybtn {
-    color: #000;
-    font-size: 1.5rem;
-    font-style: normal;
-    font-weight: 473;
-    line-height: 160%; /* 2.4rem */
-    letter-spacing: -0.03rem;
-    display: flex;
-    padding: 1.25rem 5rem;
-    justify-content: center;
-    align-items: center;
-    gap: 0.5rem;
-    border-radius: 50rem;
-    border: 1px solid #000;
+
+a{
+    text-decoration: none;
 }
 
 .main{
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+section{
+    overflow: hidden;
 }
 
 /* index Css */
@@ -82,6 +73,7 @@ h3{
     align-items: center;
     gap: 3rem;
     margin-bottom: 4rem;
+    padding-bottom: 4rem;
 }
 
 
@@ -94,6 +86,10 @@ h3{
     align-self: center;
     gap: -2rem;
     padding-top: 6rem;
+}
+
+.headingbox img {
+    border-radius: 80rem;
 }
 
 .pill_table
@@ -189,3 +185,47 @@ h3{
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
+
+  
+  .container {
+    max-width: 500px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #0056b3;
+  }
+  

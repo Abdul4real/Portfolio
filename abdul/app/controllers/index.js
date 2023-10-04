@@ -74,3 +74,7 @@ module.exports.aboutP1 = function (req, res, next) {
             );
         }
         
+        module.exports.submit = function (req, res, next) {
+            res.redirect("/")
+        }
+        
